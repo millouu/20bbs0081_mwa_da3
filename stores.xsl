@@ -72,9 +72,13 @@
             <h2>
                 <xsl:value-of select="city" />
             </h2>
-            <p>Author: <xsl:value-of select="address" />
+            <p>
+                <b>Address: </b>
+                <xsl:value-of select="address" />
             </p>
-            <p>Genre: <xsl:value-of select="phone" />
+            <p>
+                <b>Phone: </b>
+                <xsl:value-of select="phone" />
             </p>
         </div>
     </xsl:template>
