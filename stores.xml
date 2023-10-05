@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./stores.xsl"?>
+<library>
+    <store>
+        <city>Mumbai</city>
+        <address>123 Main Street, Mumbai, India</address>
+        <phone>+91 1234567890</phone>
+    </store>
+    <store>
+        <city>Delhi</city>
+        <address>456 Park Avenue, Delhi, India</address>
+        <phone>+91 9876543210</phone>
+    </store>
+    <store>
+        <city>Bengaluru</city>
+        <address>789 Elm Road, Bengaluru, India</address>
+        <phone>+91 8765432109</phone>
+    </store>
+    <store>
+        <city>Chennai</city>
+        <address>567 Oak Lane, Chennai, India</address>
+        <phone>+91 7654321098</phone>
+    </store>
+    <store>
+        <city>Kolkata</city>
+        <address>101 Pine Street, Kolkata, India</address>
+        <phone>+91 6543210987</phone>
+    </store>
+    <store>
+        <city>Hyderabad</city>
+        <address>321 Cedar Avenue, Hyderabad, India</address>
+        <phone>+91 5432109876</phone>
+    </store>
+    <store>
+        <city>Pune</city>
+        <address>222 Birch Road, Pune, India</address>
+        <phone>+91 4321098765</phone>
+    </store>
+    <store>
+        <city>Jaipur</city>
+        <address>555 Maple Street, Jaipur, India</address>
+        <phone>+91 3210987654</phone>
+    </store>
+    <store>
+        <city>Ahmedabad</city>
+        <address>777 Pine Avenue, Ahmedabad, India</address>
+        <phone>+91 2109876543</phone>
+    </store>
+</library>

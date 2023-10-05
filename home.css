@@ -1,0 +1,61 @@
+@import url("./styles/hero.css");
+
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std Lt";
+  src: url("../fonts/ITCAvantGardeStd-Bk.otf") format(opentype);
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("../fonts/ITCAvantGardeStd-Bold.otf") format(opentype);
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url("../fonts/ITCAvantGardeStd-Md.otf") format(opentype);
+}
+
+:root {
+  --avant-garde: "ITC Avant Garde Gothic Std";
+}
+
+* {
+  font-family: "ITC Avant Garde Gothic Std";
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 2px solid #fa6400;
+}
+
+.navbar__logo {
+  height: 70px;
+  object-fit: contain;
+}
+
+.navbar__links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.navbar__links li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h3 {
+  font-weight: normal;
+  color: #fa6400;
+  font-size: 20px;
+}
+
+.dp {
+  height: 50px;
+  object-fit: contain;
+  margin-left: 10px;
+}
